@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - command:
-        - ./bin/controller
+        - /controller
         args:
         - --aws-account-id
         - "$(AWS_ACCOUNT_ID)"
